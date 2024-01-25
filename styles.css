@@ -1,0 +1,37 @@
+body {
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: hsl(212, 26%, 79%);
+
+
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+    background-color:#fff;
+    padding:.8rem;
+    border-radius:.5rem;
+    /*width:auto;
+    */height:28rem;
+    width:18rem;
+    gap:1.3rem;
+    box-shadow:2px 2px 25px black;
+
+}
+.container img {
+    border-radius:.5rem;
+}
+
+.container h3 {
+    text-align: center;
+    margin:-.1rem;
+    margin-bottom:-.1rem;
+}
+.container p {
+    text-align: center;
+    margin-top:-.05rem;
+}
